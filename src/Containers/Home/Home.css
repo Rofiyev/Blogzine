@@ -1,0 +1,130 @@
+#home.dark {
+  background-color: #191a1f;
+}
+
+#home {
+  min-width: 100% !important;
+  height: 100% !important;
+  padding: 0 20px;
+  transition: .5s ease-in;
+}
+
+#mySwiper {
+  height: 550px;
+  width: 100%;
+}
+
+.paragh {
+  color: #fff;
+}
+
+ul li,
+ul span {
+  color: #fff;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: start;
+  align-items: start;
+  border-radius: 10px;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./image/fon-3.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./image/fon-1.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.slide-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./image/fon-2.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.circle {
+  padding: 2px 20px 2px 30px;
+  border-radius: 4px;
+  position: relative;
+  background-color: #fff;
+}
+
+.crimson {
+  background-color: crimson !important;
+}
+
+.orange {
+  background-color: orange !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+#bg-black {
+  background-color: #000 !important;
+}
+
+#circle-elm {
+  content: '';
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translateY(-50%);
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.content p {
+  width: 70%;
+  cursor: pointer;
+}
+
+.content img {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.content span {
+  margin-right: 20px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}

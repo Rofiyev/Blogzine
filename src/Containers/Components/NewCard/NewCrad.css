@@ -1,0 +1,95 @@
+#cardsDiv.dark li,
+#cardsDiv.dark span {
+  color: #ccc !important;
+  cursor: pointer;
+}
+
+.link {
+  color: #444;
+  text-decoration: underline !important;
+}
+
+.width_100 {
+  width: 100% !important;
+}
+
+#cardsDiv li,
+#cardsDiv span {
+  color: #333;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infoCrad h3 {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.bg {
+  width: 120px;
+  background-color: rgba(220, 20, 60, 0.1);
+  font-weight: 500;
+  cursor: pointer;
+  color: crimson;
+  border-radius: 5px;
+}
+
+.bg.yellow {
+  background: rgba(255, 255, 0, 0.2);
+  color: orange;
+}
+
+.bg.yellow #circle {
+  background-color: orange;
+}
+
+.bg.blue {
+  background: rgba(43, 0, 255, 0.2) !important;
+  color: blue;
+}
+
+.bg.blue #circle {
+  background-color: blue !important;
+}
+
+.bg.green {
+  background: rgba(30, 255, 0, 0.2);
+  color: green;
+}
+
+.bg.green #circle {
+  background-color: green;
+}
+
+#circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: crimson;
+}
+
+#oboi {
+  width: 170px;
+  height: 130px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+#userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+ul {
+  color: #444 !important;
+}
+
+.cardItem {
+  padding: 2px;
+}

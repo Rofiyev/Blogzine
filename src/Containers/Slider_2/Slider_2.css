@@ -1,0 +1,86 @@
+#slider_2.dark {
+  min-width: 100%;
+  height: 100%;
+  padding: 0 100px;
+  margin: 0 !important;
+  background-color: #191a1f;
+  border-radius: 0 !important;
+}
+
+.container-slider-2 {
+  padding: 20px 50px !important;
+  background-color: rgba(184, 203, 240, 0.1);
+  border-radius: 20px;
+}
+
+.container-slider-2 a {
+  color: #575757;
+  font-weight: 500;
+  text-decoration: underline !important;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 300px;
+}
+
+.slideCard {
+  width: 260px !important;
+  height: 230px !important;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideCard::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  z-index: 10;
+  background: linear-gradient(to top, #000000b9, transparent);
+}
+
+.slideCard:hover img {
+  transform: scale(1.15);
+}
+
+.slideCard img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .5s ease-in-out;
+}
+
+.slideCard span {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  z-index: 100;
+}
+
+.slideCard span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition: .5s ease-in-out;
+}
+
+.slideCard:hover span::before {
+  width: 100%;
+}
